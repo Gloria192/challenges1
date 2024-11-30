@@ -17,7 +17,19 @@ body {
 }
 header  {
 
-    padding: 10px 40px;
+    padding: 5px 10px;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items: center;
+    color: white;
+    background-color:grey;
+
+}
+#heroe {
+
+    padding: 40px 40px;
     width: 100%;
     display: flex;
     flex-direction:column;
@@ -25,7 +37,14 @@ header  {
     align-items: center;
     background-color:white;
 
+
 }
+#heroe span{
+   color: white;
+    background-color: black;
+    padding: 3px;
+
+    }
 #human{
     margin: 10px;
     /* background-image: url("../assets/architect.jpg"); */
@@ -127,8 +146,33 @@ h2{
     text-align: center;
     justify-content:center;
 /* }  */
-
-     
+footer{
+    background-color: grey;
+    width: 100%;
+    padding: 50px;
+}
+#footer1{
+    background-color: black;
+    width: 10%;
+    color: white;
+    padding: 15px;
+}
+#content{
+    display: flex;
+    border: 1px solid red;
+    width: 100%;
+    font-size: 10px;
+    gap: 10px;
+    background-color: white;
+}
+#class1{
+    border: 3px solid yellow;
+}
+#class2{
+    border:4px solid green;
+    border: 1px;
+    width: 30%;
+}
 
 
 
